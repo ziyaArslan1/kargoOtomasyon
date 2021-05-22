@@ -117,15 +117,15 @@ void Islemler::tumunuYazdir() {
 
 	for(int i=0;i<kargolar.size();i++) {
 		std::cout<<"\nKargo ismi        : "<<kargolar[i].ad;
-        std::cout<<"\nKargo id          : "<<kargolar[i].id;
-        std::cout<<"\nKargo agirligi    : "<<kargolar[i].agirlik;
-        std::cout<<"\nGonderilme tarihi : "<<kargolar[i].tarih;
+		std::cout<<"\nKargo id          : "<<kargolar[i].id;
+ 		std::cout<<"\nKargo agirligi    : "<<kargolar[i].agirlik;
+ 		std::cout<<"\nGonderilme tarihi : "<<kargolar[i].tarih;
 
-        std::cout<<"\nGonderici adi     : "<<gondericiler[i].ad;
-        std::cout<<"\nGonderici soyadi  : "<<gondericiler[i].soyad;
+ 		std::cout<<"\nGonderici adi     : "<<gondericiler[i].ad;
+ 		std::cout<<"\nGonderici soyadi  : "<<gondericiler[i].soyad;
 
-        std::cout<<"\nAlici adi         : "<<alicilar[i].ad;
-        std::cout<<"\nAlici soyadi      : "<<alicilar[i].soyad<<"\n\n";
+ 		std::cout<<"\nAlici adi         : "<<alicilar[i].ad;
+ 		std::cout<<"\nAlici soyadi      : "<<alicilar[i].soyad<<"\n\n";
 	}
 
 	std::cout<<"\n\n";
